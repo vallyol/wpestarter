@@ -1,0 +1,15 @@
+/* Paul Irish hack */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Custom resets */
+a, a:focus, a:active, a:visited {
+  outline: none;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  font-size: 0;
+}

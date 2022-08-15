@@ -1,0 +1,26 @@
+/* Template settings */
+$globalwidth: 1920px;
+$container: 1200px;
+
+/* Fonts */
+$base-font: 'Roboto Flex Regular';
+$base-font-url: url(../fonts/RobotoFlex-Regular.ttf) format("truetype"); 
+$heading-font: 'Playfair Display Regular';
+$heading-font-url: url(../fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+
+$base-size: 0.8125rem;
+$heading-size: (1: 2.25rem, 2: 1.875rem, 3: 1.5rem, 4: 1.125rem, 5: 0.875rem, 6: .75rem);
+@each $hname, $hsize in $heading-size {
+  h#{$hname} {
+    font-size: $hsize;
+  }
+}
+$base-width: 400;
+
+$line-height: 1.75;
+
+/* Colors */
+$dark: #191919;
+$dark-accent: #222;
+$light: #999;
+$accent: #9c5451;

@@ -1,0 +1,54 @@
+/* Font-face */
+@font-face {
+  font-family: $base-font;
+  src: $base-font-url;
+}
+@font-face {
+  font-family: $heading-font;
+  src: $heading-font-url;
+}
+
+/* Tags */
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  width: 100%;
+  max-width: $globalwidth;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-size: $base-size;
+  font-weight: $base-width;
+  font-family: $base-font, sans-serif;
+  line-height: $line-height;
+  background-color: $dark;
+  color: $light;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $dark;
+  z-index: 10;
+}
+main {
+  padding-top: 3.75rem;
+}
+footer .container {
+  border-top: 1px solid $dark-accent;
+  padding: 3.75rem 0;
+}
+header p, footer p {
+  padding: 1rem;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font, serif;
+  color: $accent;
+}
+a, a:hover, a:focus, a:visited {
+  color: $accent;
+}
+b, strong {
+  color: $accent;
+} 
