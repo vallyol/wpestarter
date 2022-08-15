@@ -13,8 +13,8 @@ var
 paths = {
   'source': './',
   'root': './',
-  'host': 'cl92849@92.53.96.128',
-  'dest': 'goszakaz/public_html/wp-content/themes/wpestarter'
+  'host': 'ADD_SSH_USER@HOST_HERE',
+  'dest': 'PATH_TO_THEME_HERE'
 },
 styles = {
   'in': 'assets/scss/app.scss',
